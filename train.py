@@ -13,7 +13,7 @@ wandb.init(project="simpsons-fastai")
 config = wandb.config
 config.img_size = random.choice([64, 100])
 config.batch_size = 2**random.randrange(8)  # 1, 2, 4... 64, 128
-config.epochs = 10
+config.epochs = 20
 model = random.choice([models.resnet18, models.resnet34])
 config.encoder = model.__name__
 config.pretrained = random.choice(
@@ -21,7 +21,8 @@ config.pretrained = random.choice(
 config.dropout = random.uniform(0, 1)
 config.one_cycle = random.choice(
     [True, False])  # "1cycle" policy -> https://arxiv.org/abs/1803.09820
-config.learning_rate = 10**random.uniform(-5, -1)
+config.learning_rate = 10 ** random.uniform(-5, -1)
+print('Configuration:\n\n{}'.format(config))
 
 # Download data
 PATH_DATA = pathlib.Path('data/simpsons')
