@@ -14,7 +14,7 @@ config = wandb.config
 config.img_size = random.choice([64, 100])
 config.batch_size = 2**random.randrange(8)  # 1, 2, 4... 64, 128
 config.epochs = 20
-model = random.choice([models.resnet18, models.resnet34])
+model = random.choice([models.resnet18, models.resnet34, models.resnet50])
 config.encoder = model.__name__
 config.pretrained = random.choice(
     [True, False])  # use pre-trained model and train only last layers
