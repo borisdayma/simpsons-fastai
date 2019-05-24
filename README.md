@@ -8,8 +8,6 @@ This is a simple demo for classifying Simpsons characters with fast.ai and optim
 
 Hyper-parameters are defined pseudo-randomly and every run is automatically logged onto [Weighs & Biases](https://www.wandb.com/) for easier analysis/interpretation of results and how to optimize the architecture.
 
-Every single experiment is automatically logged onto [Weighs & Biases](https://www.wandb.com/) for easier analysis/interpretation of results and how to optimize the architecture.
-
 ## Usage
 
 1. Install dependencies through `requirements.txt`, `Pipfile` or manually (Pytorch, Fast.ai & Wandb)
