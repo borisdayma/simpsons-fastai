@@ -24,4 +24,4 @@ Every single experiment is automatically logged onto [Weighs & Biases](https://w
 
 After running the script a few times, you will be able to compare quickly a large combination of hyperparameters. As an example, you can refer to [my runs](https://app.wandb.ai/borisd13/simpsons-fastai).
 
-Feel free to modify the script and define your own hyper parameters.
+Feel free to modify the script and define your own hyperparameters.
