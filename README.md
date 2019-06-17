@@ -20,6 +20,8 @@ Hyper-parameters are defined pseudo-randomly and every run is automatically logg
 
 ## Results
 
-After running the script a few times, you will be able to compare quickly a large combination of hyperparameters. As an example, you can refer to [my runs](https://app.wandb.ai/borisd13/simpsons-fastai).
+After running the script a few times, you will be able to compare quickly a large combination of hyperparameters. As an example, you can refer to [my runs](https://app.wandb.ai/borisd13/simpsons-fastai/reports?view=borisd13%2Fsimpsons).
+
+![alt text](imgs/graphs.png)
 
 Feel free to modify the script and define your own hyperparameters.
