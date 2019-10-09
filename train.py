@@ -5,6 +5,7 @@ import pathlib
 import requests
 import tarfile
 import random
+from functools import partial
 
 # Initialize W&B project
 wandb.init(project="simpsons-fastai")
@@ -48,7 +49,7 @@ learn = cnn_learner(data,
                     pretrained=config.pretrained,
                     ps=config.dropout,
                     metrics=accuracy,
-                    callback_fns=WandbCallback)  # Log training in W&B
+                    callback_fns=partial(WandbCallback, input_type='images'))  # Log training in W&B
 
 # Train
 if config.one_cycle:
