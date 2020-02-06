@@ -8,6 +8,8 @@ This is a simple demo for classifying Simpsons characters with fast.ai and optim
 
 Hyper-parameters are defined pseudo-randomly and every run is automatically logged onto [Weighs & Biases](https://www.wandb.com/) for easier analysis/interpretation of results and how to optimize the architecture.
 
+You can also run [sweeps](https://docs.wandb.com/sweeps/) to optimize automatically hyper-parameters.
+
 ## Usage
 
 1. Install dependencies through `requirements.txt`, `Pipfile` or manually (Pytorch, Fast.ai & Wandb)
@@ -17,6 +19,10 @@ Hyper-parameters are defined pseudo-randomly and every run is automatically logg
 
    ![alt text](imgs/results.png)
 
+## Sweeps
+
+1. Run `wandb sweep sweep.yaml`
+2. Run `wandb agent <sweep_id>` where `<sweep_id>` is given by previous command.
 
 ## Results
 
