@@ -34,6 +34,6 @@ parameters:
       - "true"
       - "false"
   learning_rate:
-    distribution: uniform
+    distribution: log_uniform
     min: 0.00001
     max: 0.1
