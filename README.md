@@ -23,7 +23,7 @@ You can also run [sweeps](https://docs.wandb.com/sweeps/) to optimize automatica
 
 1. Run `wandb sweep sweep.yaml`
 2. Run `wandb agent <sweep_id>` where `<sweep_id>` is given by previous command.
-3. Visualize and compare the sweep runs. See [my sweep](https://app.wandb.ai/borisd13/simpsons-fastai/sweeps/roo7slnu?workspace=user-borisd13).
+3. Visualize and compare the sweep runs. See [my sweep](https://app.wandb.ai/borisd13/simpsons-fastai/sweeps/oo5nnzuv?workspace=user-borisd13).
 
 ## Results
 
